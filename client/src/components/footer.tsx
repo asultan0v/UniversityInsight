@@ -53,8 +53,16 @@ export function Footer() {
           </div>
         </div>
         
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 UniSearch. All rights reserved.</p>
+        <div className="border-t border-gray-800 mt-8 pt-8">
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <div className="text-center md:text-left">
+              <p className="text-gray-400">&copy; 2024 UniSearch. All rights reserved.</p>
+            </div>
+            <div className="text-center md:text-right">
+              <p className="text-gray-300 font-medium">Created by <span className="text-white font-semibold">Sultanov Amirbek</span></p>
+              <p className="text-gray-400 text-sm">CEO & Founder</p>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
